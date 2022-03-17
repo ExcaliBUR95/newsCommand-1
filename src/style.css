@@ -1,0 +1,25 @@
+.header-all{
+    background-color: black;
+}
+
+.item-header{
+    color: azure;
+}
+.item-news{
+    padding-top: 25px;
+}
+
+.newsTitle{
+    margin: auto;
+    text-align: start;
+    margin-top: 25px;
+ 
+}
+
+.item12{
+    color: azure;
+}
+
+body{
+    background-color: whitesmoke;
+}

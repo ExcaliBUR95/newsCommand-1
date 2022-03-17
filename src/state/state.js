@@ -1,5 +1,7 @@
 export const initialState = {
     news: [],
-    categories: ['kddks'],
+    categories: [],
     comments: [],
   };
+
+  

@@ -4,7 +4,7 @@ const { CleanWebpackPlugin }= require('clean-webpack-plugin')
 
 module.exports = {
     devServer: {
-        port: 9000
+        port: 4000
     },
     resolve: {
         extensions: ['.js', '.json', 'css']
@@ -28,7 +28,7 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: ['css-loader', 'style-loader']
+                use: [ 'style-loader','css-loader']
             },
             {
                 test: /\.(png|jpe?g)$/,
